@@ -1,0 +1,13 @@
+{
+  "name": "2024-portfolio",
+  "version": "1.0.0",
+  "description": "## A Simple & Clean Portfolio Template For Developers 👨‍💻",
+  "main": "script.js",
+  "scripts": {
+    "start": "node script.js && live-servers",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

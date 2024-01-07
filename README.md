@@ -1,4 +1,4 @@
-# Wowfolio 🦄
+# Portfolio 🦄
 
 ## A Simple & Clean Portfolio Template For Developers 👨‍💻
 

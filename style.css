@@ -6,7 +6,7 @@
 }
 
 :root {
-  --themeColor: 29, 161, 242;
+  --themeColor: 236, 188, 162;
   /* Theme Color in (R,G,B) format */
 }
 
@@ -100,6 +100,7 @@ a {
   width: 90%;
 }
 
+
 .main-section {
   padding: 12rem 0;
 }
@@ -128,7 +129,7 @@ a {
 
 @media (max-width: 37.5em) {
   .heading-primary {
-    font-size: 4rem;
+    font-size: 14rem;
   }
 }
 
@@ -139,7 +140,7 @@ a {
 }
 
 .heading-secondary {
-  font-size: 4rem;
+  font-size: 2.5rem;
   letter-spacing: 1px;
   line-height: 1.3;
   color: #000;
@@ -763,6 +764,80 @@ a {
   font-weight: 400;
   letter-spacing: 1px;
 }
+/* Code for contact icons */
+
+.contact{
+  background: rgba(247, 247, 247, 1);
+  padding: 5rem 3rem;
+  
+
+}
+/* used */
+.contact-showcase__list {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 30rem;
+  margin-right: 30rem;
+}
+
+/* used */
+.contact-showcase__list-item {
+  margin-top: 5rem;
+  padding: 3rem;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  color: rgba(var(--themeColor), 1);
+  color: #999;
+  font-size: 5rem;
+}
+
+
+@media (max-width: 75em) {
+  .contact-showcase__list-item {
+    padding: 1.5rem;
+    border-radius: 5px;
+    background: #fff;
+    
+  }
+
+  .contact-showcase__list-item i {
+    font-size: 5rem;
+  }
+}
+
+@media (max-width: 56.25em) {
+  .contact-showcase {
+    padding: 5rem;
+  }
+
+  .contact-showcase__list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5rem;
+  }
+
+  .contact-showcase__list-item {
+    text-align: center;
+  }
+}
+
+@media (max-width: 37.5em) {
+  .contact-showcase {
+    padding: 4rem;
+  }
+
+  .contact-showcase__list {
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 4rem;
+  }
+}
+
+@media (max-width: 21.875em) {
+  .contact-showcase__list-item i {
+    font-size: 4rem;
+  }
+}
 
 /* Code for Modern Browsers */
 /* Code for WebKit, Blink, Edge */
@@ -772,7 +847,8 @@ a {
 /* Code for Mozilla Firefox 19+ */
 
 
-.contact__form-field-input::placeholder {
+/* FOR WEBFORM SUBMISSION */
+/* .contact__form-field-input::placeholder {
   color: rgb(175, 175, 175);
   font-weight: 400;
   font-size: 1.6rem;
@@ -854,7 +930,7 @@ a {
   height: 100%;
   top: 0;
   left: 0;
-}
+} */
 
 /* Main Footer */
 
